@@ -104,7 +104,7 @@ static NSString* kInvalidatePath = @"/oauth/invalidate";
  ************************************************************************************/
 
 - (NSString *) oauthCallbackUrl {
-    return [NSString stringWithFormat:@"geni%@://authorize", appId];
+    return [NSString stringWithFormat:@"geni%@://authorize", [appId lowercaseString]];
 }
 
 - (void)authorize:(id<GeniSessionDelegate>)delegate {
