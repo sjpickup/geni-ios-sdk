@@ -1,3 +1,7 @@
+= This Fork
+
+This fork updates to current iOS.
+
 = Welcome to Geni iOS SDK 
 
 This open source iOS library allows you to integrate Geni into your own iOS application.
